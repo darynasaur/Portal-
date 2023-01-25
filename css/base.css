@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.container {
+    width: 1284px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.container-header {
+    width: 1324px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+
+
+
+.white {
+    color:white
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 24%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+button {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}

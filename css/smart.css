@@ -1,0 +1,37 @@
+.smart {
+    background-color: #D0E8EA;
+}
+
+.smart_cards {
+    padding: 343px 0px 45px 91px;
+    display: flex;
+}
+
+.smart_cards_card {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    margin-right: 159px;
+}
+
+.smart_cards_card h3 {
+    color: #1B365D;
+    text-align: left;
+}
+
+.smart_cards_card p {
+    margin-top:10px;
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.smart_cards_card a {
+    text-decoration: none;
+    color:#1B365D;
+    font-size: 14px;   
+    line-height: 20px;
+}
+
+.smart_cards_card a:hover {
+    font-weight: 700;
+}

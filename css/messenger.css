@@ -1,0 +1,70 @@
+.messenger_calatog {
+    display: flex;
+    padding-bottom: 109px;
+}
+
+.messenger_text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 59px;
+    padding-right: 60px;
+}
+
+.messenger_text h6 {
+    font-weight: 400;
+font-size: 50px;
+line-height: 55px;
+color: #1B365D;
+margin: 0px;
+max-width: 459px;
+
+}
+
+.messenger_text p {
+    font-size: 17px;
+line-height: 23px;
+color:#615E5C;
+max-width: 462px;
+}
+
+
+.messenger_text .small {
+    font-size: 11px;
+line-height: 18px;
+color:#AEABA8;
+margin: 0px;
+max-width: 462px;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin: -22px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.messenger_text .fa-brands {
+    color:white;
+    width: 60px;
+    height: 60px;
+    font-size:30px;
+    margin: 40px 0px;
+    border-radius: 100px;
+    text-align: center;
+    padding:13px 0px;
+    margin-right: 10px;
+}
+
+.fa-facebook-messenger {
+    border: 3px solid #1990FF    ;
+    background-color: #1990FF    ;
+}
+
+.fa-whatsapp {
+    border: 3px solid #25D366;
+    background-color: #25D366;
+}

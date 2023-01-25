@@ -1,0 +1,98 @@
+.cards-all {
+    padding: 114px 0px 31px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 587px;
+    padding:447px 32px 0px 32px;
+}
+
+.card.one {
+    background-image: url(../images/2_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card.two {
+    background-image: url(../images/2_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card.three {
+    background-image: url(../images/2_3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card.four {
+    background-image: url(../images/2_4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color:white;
+    text-align: center;
+    max-height: 30px;
+    overflow: hidden;
+}
+
+.card p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color:white;
+    text-align: center;
+    max-width: 190px;
+    overflow: hidden;
+    margin: 0px 0px 20px 0px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.card a {
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
+
+h4 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    color:#1B365D;
+    width: 682px;
+    padding-bottom: 400px;
+    margin: 0px;
+}
+
+.smart-img {
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.cards h4 {
+    padding-bottom: 353px;
+    max-width: 682px;
+}
