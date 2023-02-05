@@ -79,14 +79,26 @@
     width: 622px;
 }
 
-h8 {
+
+.alexa_cards h4 {
     font-size: 30px;
-line-height: 34px;
-color:#1B365D;
-font-weight: 700;
-max-height: 100px;
-overflow: hidden;
+    line-height: 34px;
+
+    font-weight: 700;
+    max-height: 100px;
+    max-width: 400px;
+    overflow: hidden;
+    padding-bottom: 0px;
+    width: 480px;
+    color: white; 
 }
+
+.alexa .blue {
+    color:#1B365D;
+
+}
+
+
 
 .alexa_cards p {
     font-size: 16px;

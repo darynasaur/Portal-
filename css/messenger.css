@@ -45,6 +45,7 @@ max-width: 462px;
 
 li {
     list-style: none;
+    
 }
 
 .messenger_text .fa-brands {
@@ -62,9 +63,20 @@ li {
 .fa-facebook-messenger {
     border: 3px solid #1990FF    ;
     background-color: #1990FF    ;
+    display: block;
 }
 
 .fa-whatsapp {
     border: 3px solid #25D366;
     background-color: #25D366;
+    display: block;
+}
+
+ul {
+    padding: 0px;
+    
+}
+
+.icons a {
+    text-decoration: none;
 }

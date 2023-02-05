@@ -2,14 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 7px;
 }
 
 .header__right {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: -15px;
 }
 
 header ul {

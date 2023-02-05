@@ -19,8 +19,48 @@
     line-height: 55px;
     color:white;
     margin: 0px;
-    padding-top: 324px;   
+    padding-top: 324px;  
+    position: relative; 
 }
+
+.story h5::before{
+    content: '';
+    width: 5px;
+    bottom: -95px;
+    left: -29px;
+    position: absolute;
+    height: 201px;
+    background: #ADD4E0;
+    z-index: 1;
+}
+
+.story h5::after{
+    content: '';
+    width: 5px;
+    bottom: -110px;
+    left: -29px;
+    position: absolute;
+    height: 195px;
+    background: #615E5C;
+    border-radius: 50px;
+}
+
+.additional-links {
+    position: relative;
+}
+
+.additional-links::before {
+    content: '';
+    width: 5px;
+    bottom: 50px;
+    left: -29px;
+    position: absolute;
+    height: 23px;
+    background: #615E5C;
+    border-radius: 50px;
+}
+
+
 
 .story p {
         font-size: 17px;
